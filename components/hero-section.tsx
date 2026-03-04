@@ -28,9 +28,8 @@ export function HeroSection() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-32 text-center">
         <div
-          className={`transition-all duration-1000 ${
-            isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-          }`}
+          className={`transition-all duration-1000 ${isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
         >
           <p className="mb-6 text-sm font-medium uppercase tracking-[0.3em] text-blue-accent">
             Стоматология нового уровня
@@ -41,9 +40,8 @@ export function HeroSection() {
         </div>
 
         <div
-          className={`mt-8 transition-all delay-300 duration-1000 ${
-            isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-          }`}
+          className={`mt-8 transition-all delay-300 duration-1000 ${isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
         >
           <p className="mx-auto max-w-2xl text-pretty text-lg leading-relaxed text-text-secondary md:text-xl">
             Полный спектр стоматологических услуг. Современное оборудование.
@@ -52,9 +50,8 @@ export function HeroSection() {
         </div>
 
         <div
-          className={`mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row transition-all delay-500 duration-1000 ${
-            isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-          }`}
+          className={`mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row transition-all delay-500 duration-1000 ${isInView ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
         >
           <a
             href="#appointment"
@@ -71,13 +68,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      <a
-        href="#stats"
-        className="absolute bottom-10 left-1/2 z-10 -translate-x-1/2 animate-float text-foreground/50 transition-colors hover:text-foreground"
-        aria-label="Прокрутить вниз"
-      >
-        <ChevronDown className="h-8 w-8" />
-      </a>
     </section>
   )
 }
